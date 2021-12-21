@@ -14,7 +14,6 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding-top: 15px;
-    padding-bottom: 15px;
     /* height: 20px; */
     background-color: rgb(72 72 76);
     color: rgb(209, 202, 193);
@@ -27,6 +26,10 @@
     margin-bottom: 0;
     margin-left: 20px;
     font-size: 20px;
+}
+
+.header span {
+    font-size: 10px;
 }
 
 .header a {

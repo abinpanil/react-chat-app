@@ -35,7 +35,8 @@ function Chat({ socket, username, room }) {
     return (
         <div className="chat-body">
             <div className="header">
-                <h5>Chat</h5>
+                <h5>Chat <br /> <span>Room ID #{room}</span> </h5>
+
                 <a><IoVideocamOutline /></a>
             </div>
             <div className="body">
