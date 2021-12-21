@@ -1,4 +1,4 @@
 import socketIoClient from 'socket.io-client';
 
 
-export const socket = socketIoClient("http://localhost:3001", { transports: ['websocket'] });
+export const socket = socketIoClient("https://react-chat-app-chatify.herokuapp.com", { transports: ['websocket'] });
